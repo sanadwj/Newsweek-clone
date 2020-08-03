@@ -1,0 +1,11 @@
+.nav-color {
+    background: rgb(247, 34, 16);
+}
+
+.botton-radius {
+    border-radius: 20px;
+}
+
+.nav-border {
+    border-right: 1px solid #d9d9d9;
+}
