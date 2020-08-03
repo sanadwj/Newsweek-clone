@@ -9,3 +9,84 @@
 .nav-border {
     border-right: 1px solid #d9d9d9;
 }
+
+.nav-2 {
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.bg-orange {
+    background-color: rgb(247, 34, 16);
+}
+
+.text-orange {
+    color: rgb(247, 34, 16);
+}
+
+.in-img {
+    margin-top: -30px;
+}
+
+.icon {
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+    width: 29px;
+    height: 28px;
+    margin-right: 3px;
+}
+
+.f {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.f1 {
+    width: 30%;
+    height: 70px;
+    background-image: url("https://d.newsweek.com/en/full/1617764/mitch-mcconnell.jpg?w=397&h=265&f=8ec9384cd27ab518932d55791ff84919");
+    background-size: cover;
+}
+
+.f1-2 {
+    width: 30%;
+    height: 70px;
+    background-image: url("https://d.newsweek.com/en/full/1617753/tropical-storm-isaias.png?w=95&h=95&f=be0400d47275c5a043174f02f4594d0c");
+    background-size: cover;
+}
+
+.f1-3 {
+    width: 30%;
+    height: 70px;
+    background-image: url("https://d.newsweek.com/en/full/1617755/border-wall.jpg?w=95&h=95&f=b9afc4d79a2dfeb36ea4f1487f68f766");
+    background-size: cover;
+}
+
+.f3 {
+    width: 30%;
+    height: 70px;
+    background-image: url("https://d.newsweek.com/en/full/1617508/eat-out-help-out.jpg?w=397&h=265&f=4d5a5ae5622274cc162bd598ba8eb2c0");
+    background-size: cover;
+}
+
+.f3-2 {
+    width: 30%;
+    height: 70px;
+    background-image: url("https://d.newsweek.com/en/full/1617486/hiroshima.jpg?w=95&h=95&l=51&t=52&f=f8329678d082ed089a3169d5a5dc4a12");
+    background-size: cover;
+}
+
+.f3-3 {
+    width: 30%;
+    height: 70px;
+    background-image: url("https://d.newsweek.com/en/full/1611753/mike-pompeo.jpg?w=95&h=95&f=1ea55c88ca6e59c2061012b4bbeb2f0b");
+    background-size: cover;
+}
+
+
+
+.f2 {
+    width: 68%;
+    font-size: 13px;
+    margin-left: 5px;
+}
