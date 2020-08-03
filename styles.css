@@ -19,6 +19,12 @@
     background-color: rgb(247, 34, 16);
 }
 
+.btn-orange {
+    color: white;
+    background-color: rgb(247, 34, 16);
+    border-color: rgb(247, 34, 16);
+}
+
 .text-orange {
     color: rgb(247, 34, 16);
 }
@@ -83,10 +89,146 @@
     background-size: cover;
 }
 
+.f4 {
+    width: 30%;
+    height: 70px;
+    background-image: url("https://d.newsweek.com/en/full/1611066/nba-china-us-companies-business.jpg?w=397&h=265&f=4288bba9fc438f5f43b13d1a4d09638d");
+    background-size: cover;
+}
 
+.f4-2 {
+    width: 30%;
+    height: 70px;
+    background-image: url("https://d.newsweek.com/en/full/1610689/us-economy-china-coronavirus-recovery.jpg?w=95&h=95&f=9c9b99f2263e620ce6a15869d379d4ea");
+    background-size: cover;
+}
+
+.f4-3 {
+    width: 30%;
+    height: 70px;
+    background-image: url("https://d.newsweek.com/en/full/1610070/china-us-economy-recovery-coronavirus-recession-growth.jpg?w=95&h=95&f=53e9df853a66dc18d8d0292946f8405f");
+    background-size: cover;
+}
+
+.f5 {
+    width: 30%;
+    height: 70px;
+    background-image: url("https://d.newsweek.com/en/full/1616980/novel-coronavirus-vaccine-candidate.jpg?w=397&h=265&f=0521103f7f72b71947cbee768da39ba2");
+    background-size: cover;
+}
+
+.f5-2 {
+    width: 30%;
+    height: 80px;
+    background-image: url("https://d.newsweek.com/en/full/1616474/mark-zuckerberg.jpg?w=95&h=95&f=aa71282e64068300543295723f95e4fc");
+    background-size: cover;
+}
+
+.f5-3 {
+    width: 30%;
+    height: 80px;
+    background-image: url("https://d.newsweek.com/en/full/1616408/david-duke.jpg?w=95&h=95&f=e77394013963b58ae4550dd59e5bb03e");
+    background-size: cover;
+}
+
+.f6 {
+    width: 30%;
+    height: 70px;
+    background-image: url("https://d.newsweek.com/en/full/1597047/dwayne-johnson.jpg?w=397&h=265&f=2d5af3f6db48d5888e993618f80a92da");
+    background-size: cover;
+}
+
+.f6-2 {
+    width: 30%;
+    height: 80px;
+    background-image: url("https://d.newsweek.com/en/full/1617776/metallica-james-hetfield-birthday.jpg?w=95&h=95&f=663d59a40e2b95caa2d98548d352f0b8");
+    background-size: cover;
+}
+
+.f6-3 {
+    width: 30%;
+    height: 80px;
+    background-image: url("https://d.newsweek.com/en/full/488656/dwayne-johnson.jpg?w=95&h=95&f=3b43da4a2ce9d35c79772cff7bd0a46f");
+    background-size: cover;
+}
+
+.f7 {
+    width: 30%;
+    height: 70px;
+    background-image: url("https://d.newsweek.com/en/full/1617410/doug-pederson.jpg?w=397&h=265&f=431a2873ef63616518ea5c08f704035d");
+    background-size: cover;
+}
+
+.f7-2 {
+    width: 30%;
+    height: 80px;
+    background-image: url("https://d.newsweek.com/en/full/1616439/lewis-hamilton-formula-one.jpg?w=95&h=95&f=ff2d4b61cfb9c97a43007e3211331617");
+    background-size: cover;
+}
+
+.f7-3 {
+    width: 30%;
+    height: 80px;
+    background-image: url("https://d.newsweek.com/en/full/1617311/meyers-leonard.jpg?w=95&h=95&l=59&t=15&f=8fdc18e44e171c57cbfba07dcd6f7541");
+    background-size: cover;
+}
 
 .f2 {
     width: 68%;
     font-size: 13px;
     margin-left: 5px;
+}
+
+.a1 {
+    width: 70%;
+    height: 300px;
+}
+
+.a2 {
+    width: 30%;
+}
+
+.in-f1 {
+    width: 38%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.in-f2 {
+    width: 60%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.in-f1-1 {
+    width: 45%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.in-f2-2 {
+    width: 55%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.align {
+    position: relative;
+    top: -210px;
+    right: 15px;
+}
+
+.bg-litegray {
+    background-color: rgb(244, 245, 246);
+}
+
+.bottom-img {
+    height: 240px;
+}
+
+.input {
+    width: 140px;
+    margin-bottom: 5px;
 }
