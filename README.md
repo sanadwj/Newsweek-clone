@@ -3,7 +3,7 @@
 
 # Newsweek-clone
 
-> This is a collaborative project that use of Boostrap : a part of microverse HTML/CSS assignement . initiated and implemented by  Jose and Sanad
+> This is a collaborative project that use Boostrap for a responsive design and css style : a part of microverse HTML/CSS assignement . initiated and implemented by  Jose and Sanad
 
 ![screenshot](./graphics/screenshot.png)
 
