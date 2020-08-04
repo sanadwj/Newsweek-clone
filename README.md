@@ -27,8 +27,9 @@
 👤 **Author2**
 
 - Github: [@sanadwj](https://github.com/sanadwj)
-- Twitter: [@](https://twitter.com/ObokoDaniel)
-- Linkedin: [linkedin](http://linkedin.com/in/daniel-dikachi-1luvtek101)
+- Twitter: [@sandooog](https://twitter.com/sandooog)
+- Linkedin: [Sanad-Abujbara](https://linkedin.com/in/sanad-abujbara)
+
 
 ## 🤝 Contributing
 
