@@ -56,171 +56,9 @@
             overflow: hidden;
         }
         
-        .f1 {
-            width: 30%;
-            height: 70px;
-            background-image: url("https://d.newsweek.com/en/full/1617764/mitch-mcconnell.jpg?w=397&h=265&f=8ec9384cd27ab518932d55791ff84919");
-            background-size: cover;
-        }
-        
-        .f1-2 {
-            width: 30%;
-            height: 70px;
-            background-image: url("https://d.newsweek.com/en/full/1617753/tropical-storm-isaias.png?w=95&h=95&f=be0400d47275c5a043174f02f4594d0c");
-            background-size: cover;
-        }
-        
-        .f1-3 {
-            width: 30%;
-            height: 70px;
-            background-image: url("https://d.newsweek.com/en/full/1617755/border-wall.jpg?w=95&h=95&f=b9afc4d79a2dfeb36ea4f1487f68f766");
-            background-size: cover;
-        }
-        
-        .f3 {
-            width: 30%;
-            height: 70px;
-            background-image: url("https://d.newsweek.com/en/full/1617508/eat-out-help-out.jpg?w=397&h=265&f=4d5a5ae5622274cc162bd598ba8eb2c0");
-            background-size: cover;
-        }
-        
-        .f3-2 {
-            width: 30%;
-            height: 70px;
-            background-image: url("https://d.newsweek.com/en/full/1617486/hiroshima.jpg?w=95&h=95&l=51&t=52&f=f8329678d082ed089a3169d5a5dc4a12");
-            background-size: cover;
-        }
-        
-        .f3-3 {
-            width: 30%;
-            height: 70px;
-            background-image: url("https://d.newsweek.com/en/full/1611753/mike-pompeo.jpg?w=95&h=95&f=1ea55c88ca6e59c2061012b4bbeb2f0b");
-            background-size: cover;
-        }
-        
-        .f4 {
-            width: 30%;
-            height: 70px;
-            background-image: url("https://d.newsweek.com/en/full/1611066/nba-china-us-companies-business.jpg?w=397&h=265&f=4288bba9fc438f5f43b13d1a4d09638d");
-            background-size: cover;
-        }
-        
-        .f4-2 {
-            width: 30%;
-            height: 70px;
-            background-image: url("https://d.newsweek.com/en/full/1610689/us-economy-china-coronavirus-recovery.jpg?w=95&h=95&f=9c9b99f2263e620ce6a15869d379d4ea");
-            background-size: cover;
-        }
-        
-        .f4-3 {
-            width: 30%;
-            height: 70px;
-            background-image: url("https://d.newsweek.com/en/full/1610070/china-us-economy-recovery-coronavirus-recession-growth.jpg?w=95&h=95&f=53e9df853a66dc18d8d0292946f8405f");
-            background-size: cover;
-        }
-        
-        .f5 {
-            width: 30%;
-            height: 70px;
-            background-image: url("https://d.newsweek.com/en/full/1616980/novel-coronavirus-vaccine-candidate.jpg?w=397&h=265&f=0521103f7f72b71947cbee768da39ba2");
-            background-size: cover;
-        }
-        
-        .f5-2 {
-            width: 30%;
-            height: 80px;
-            background-image: url("https://d.newsweek.com/en/full/1616474/mark-zuckerberg.jpg?w=95&h=95&f=aa71282e64068300543295723f95e4fc");
-            background-size: cover;
-        }
-        
-        .f5-3 {
-            width: 30%;
-            height: 80px;
-            background-image: url("https://d.newsweek.com/en/full/1616408/david-duke.jpg?w=95&h=95&f=e77394013963b58ae4550dd59e5bb03e");
-            background-size: cover;
-        }
-        
-        .f6 {
-            width: 30%;
-            height: 70px;
-            background-image: url("https://d.newsweek.com/en/full/1597047/dwayne-johnson.jpg?w=397&h=265&f=2d5af3f6db48d5888e993618f80a92da");
-            background-size: cover;
-        }
-        
-        .f6-2 {
-            width: 30%;
-            height: 80px;
-            background-image: url("https://d.newsweek.com/en/full/1617776/metallica-james-hetfield-birthday.jpg?w=95&h=95&f=663d59a40e2b95caa2d98548d352f0b8");
-            background-size: cover;
-        }
-        
-        .f6-3 {
-            width: 30%;
-            height: 80px;
-            background-image: url("https://d.newsweek.com/en/full/488656/dwayne-johnson.jpg?w=95&h=95&f=3b43da4a2ce9d35c79772cff7bd0a46f");
-            background-size: cover;
-        }
-        
-        .f7 {
-            width: 30%;
-            height: 70px;
-            background-image: url("https://d.newsweek.com/en/full/1617410/doug-pederson.jpg?w=397&h=265&f=431a2873ef63616518ea5c08f704035d");
-            background-size: cover;
-        }
-        
-        .f7-2 {
-            width: 30%;
-            height: 80px;
-            background-image: url("https://d.newsweek.com/en/full/1616439/lewis-hamilton-formula-one.jpg?w=95&h=95&f=ff2d4b61cfb9c97a43007e3211331617");
-            background-size: cover;
-        }
-        
-        .f7-3 {
-            width: 30%;
-            height: 80px;
-            background-image: url("https://d.newsweek.com/en/full/1617311/meyers-leonard.jpg?w=95&h=95&l=59&t=15&f=8fdc18e44e171c57cbfba07dcd6f7541");
-            background-size: cover;
-        }
-        
         .f2 {
-            width: 68%;
-            font-size: 13px;
+            font-size: 14px;
             margin-left: 5px;
-        }
-        
-        .a1 {
-            width: 70%;
-            height: 300px;
-        }
-        
-        .a2 {
-            width: 30%;
-        }
-        
-        .in-f1 {
-            width: 38%;
-            margin-left: 10px;
-            margin-top: 20px;
-        }
-        
-        .in-f2 {
-            width: 60%;
-            margin-right: 10px;
-            margin-left: 10px;
-            margin-top: 30px;
-        }
-        
-        .in-f1-1 {
-            width: 40%;
-            margin-left: 10px;
-            margin-top: 10px;
-        }
-        
-        .in-f2-2 {
-            width: 60%;
-            margin-right: 10px;
-            margin-left: 10px;
-            margin-top: 30px;
         }
         
         .align {
@@ -231,6 +69,7 @@
         
         .bg-litegray {
             background-color: rgb(244, 245, 246);
+            height: fit-content;
         }
         
         .bottom-img {
@@ -247,7 +86,7 @@
         }
         
         .icon-m {
-            margin-top: 50px;
+            margin-top: 63px;
             width: 20px;
             height: 20px;
         }
@@ -272,6 +111,7 @@
         
         .nav-btn {
             margin-top: 50px !important;
+            width: 150px;
         }
         
         .nav-w {
@@ -292,11 +132,58 @@
         }
         
         .height-sus {
-            height: 250px;
+            height: fit-content;
         }
         
         .footer-icon {
             background-image: url("https://findvectorlogo.com/wp-content/uploads/2019/07/newsweek-vector-logo.png");
             background-size: cover;
             width: 235px;
+        }
+        
+        .suscribe-1 {
+            background-image: url("https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=170&q=95&f=2ea70c30e8f5467c1e61021ae9778138");
+            background-size: cover;
+            width: 170px;
+            height: 220px;
+        }
+        
+        .suscribe-2 {
+            background-image: url("https://d.newsweek.com/en/full/1611327/cover-july-31-august-07-2020.jpg?w=170&q=95&f=e9849b39e78f364f0f8bb410954aa063");
+            background-size: cover;
+            width: 170px;
+            height: 220px;
+            position: relative;
+            top: 0;
+            right: 94px;
+        }
+        
+        .nav-md {
+            display: none;
+        }
+        
+        .nav-sm {
+            display: none;
+        }
+        
+        @media screen and (max-width: 991px) {
+            .nav-md {
+                display: flex;
+            }
+            .nav-lg {
+                display: none;
+            }
+            .menu {
+                font-size: 20px;
+                color: #d9d9d9;
+            }
+        }
+        
+        @media screen and (max-width: 767px) {
+            .nav-sm {
+                display: flex;
+            }
+            .nav-md {
+                display: none;
+            }
         }
