@@ -5,7 +5,7 @@
 
 > This is a collaborative project that use of Boostrap : a part of microverse HTML/CSS assignement . initiated and implemented by  Jose and Sanad
 
-![screenshot](./graphics/screenshoot.png)
+![screenshot](./graphics/screenshot.png)
 
 
 ## Built With
