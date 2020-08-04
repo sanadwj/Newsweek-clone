@@ -232,3 +232,42 @@
     width: 140px;
     margin-bottom: 5px;
 }
+
+.copy-m {
+    margin-top: 65px;
+}
+
+.icon-m {
+    margin-top: 50px;
+}
+
+.m-bottom {
+    margin-bottom: -15px;
+}
+
+.font-bottom {
+    font-size: 12px;
+}
+
+.m-features {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: -9px;
+}
+
+.m-top-img {
+    margin-top: 20px;
+}
+
+.nav-btn {
+    margin-top: 50px !important;
+}
+
+.nav-w {
+    margin-top: 35px !important;
+}
+
+.w-img {
+    width: 10%;
+    height: 10%;
+}
