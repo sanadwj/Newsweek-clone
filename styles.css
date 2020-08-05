@@ -435,7 +435,7 @@ a {
   }
 }
 
-@media (max-width:425px) {
+@media (max-width: 425px) {
   .media-large {
     margin-left: 17px;
     margin-right: 16px;
@@ -454,7 +454,7 @@ a {
   }
 }
 
-@media (max-width:375px) {
+@media (max-width: 375px) {
   .media-large {
     margin-left: 0;
     margin-right: 0;
@@ -473,7 +473,7 @@ a {
   }
 }
 
-@media (max-width:320px) {
+@media (max-width: 320px) {
   .suscribe-2 {
     right: 10px !important;
   }
