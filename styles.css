@@ -147,11 +147,6 @@ a {
     width: 100%;
 }
 
-.more-stories {
-    width: auto;
-    width: 100%;
-}
-
 .height-sus {
     height: fit-content;
 }
@@ -380,12 +375,6 @@ a {
     }
     .fit-text {
         width: 300px !important;
-    }
-    .more-img {
-        padding: 0 !important;
-    }
-    .more-stories {
-        padding: 0 !important;
     }
     .padding-cero {
         padding: 0 !important;
