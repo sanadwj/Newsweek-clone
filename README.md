@@ -14,7 +14,7 @@
 - Visual Studio Code, Git and Github.
 
 ## Live Demo
-[Live Demo Link](https://pastorp3.github.io/)
+[Live Demo Link](https://raw.githack.com/sanadwj/Newsweek-clone/feature-branch/index.html)
 
 ## Authors
 

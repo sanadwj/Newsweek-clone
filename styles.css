@@ -3,6 +3,8 @@ body {
     margin-right: 30px;
     margin-left: 30px;
     border: 1px solid rgb(241, 231, 231);
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
 a {
@@ -11,6 +13,7 @@ a {
 
 .nav-color {
     background: rgb(250, 0, 28);
+    background: rgb(247, 34, 16);
 }
 
 .botton-radius {
@@ -135,6 +138,8 @@ a {
 .nav-info {
     margin-left: 10px;
     width: 350px;
+    margin-top: 50px !important;
+    width: 150px;
 }
 
 .nav-w {
@@ -152,6 +157,7 @@ a {
 
 .more-stories {
     width: auto;
+    width: 100%;
 }
 
 .height-sus {
