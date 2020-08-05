@@ -1,542 +1,438 @@
-body {
-  box-sizing: border-box;
-  margin: 0 90px;
-  border: 1px solid rgb(241, 231, 231);
-  overflow-x: hidden;
-}
-
-a {
-  color: black;
-}
-
-.nav-color {
-  background: rgb(250, 0, 28);
-  background: rgb(247, 34, 16);
-}
-
-.botton-radius {
-  border-radius: 20px;
-}
-
-.nav-border {
-  border-right: 1px solid #d9d9d9;
-}
-
-.nav-2 {
-  border-top: 1px solid #d9d9d9;
-  border-bottom: 1px solid #d9d9d9;
-}
-
-.logo-img-lg {
-  width: 500px;
-}
-
-.bg-orange {
-  background-color: rgb(247, 34, 16);
-}
-
-.btn-orange {
-  color: white;
-  background-color: rgb(247, 34, 16);
-  border-color: rgb(247, 34, 16);
-}
-
-.text-orange {
-  color: rgb(247, 34, 16);
-}
-
-.in-img {
-  margin-top: -30px;
-}
-
-.icon {
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
-  width: 29px;
-  height: 28px;
-  margin-right: 3px;
-}
-
-.f {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.f2 {
-  font-size: 14px;
-  margin-left: 5px;
-}
-
-.align {
-  position: relative;
-  top: -210px;
-  right: 15px;
-}
-
-.bg-litegray {
-  background-color: rgb(244, 245, 246);
-  height: fit-content;
-}
-
-.bottom-img {
-  height: 240px;
-}
-
-.input {
-  width: 140px;
-  margin-bottom: 5px;
-}
-
-.copy-m {
-  margin-top: 20px;
-}
-
-.icon-m {
-  margin-top: 20px;
-  width: 20px;
-  height: 20px;
-}
-
-.m-bottom {
-  margin-bottom: -15px;
-}
-
-.font-bottom {
-  font-size: 12px;
-}
-
-.m-features {
-  margin-right: 0;
-  margin-left: 0;
-  margin-top: -9px;
-}
-
-.m-top-img {
-  margin-top: 20px;
-}
-
-.right-sec {
-  width: 250px;
-  margin: 50px 10px 10px 0;
-}
-
-.nav-btn {
-  font-size: 16px;
-  width: 250px;
-  background-color: #ffe400;
-  border: none;
-  border-radius: 20px;
-}
-
-.nav-info {
-  margin-left: 10px;
-  width: 150px;
-}
-
-.nav-w {
-  margin-top: 35px !important;
-}
-
-.w-img {
-  width: 10%;
-  height: 10%;
-}
-
-.story {
-  width: 100%;
-}
-
-.height-sus {
-  height: fit-content;
-}
-
-.footer-icon {
-  width: 236px;
-  height: 60px;
-}
-
-.suscribe-1 {
-  background-image: url("https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=170&q=95&f=2ea70c30e8f5467c1e61021ae9778138");
-  background-size: cover;
-  width: 170px;
-  height: 220px;
-}
-
-.suscribe-2 {
-  background-image: url("https://d.newsweek.com/en/full/1611327/cover-july-31-august-07-2020.jpg?w=170&q=95&f=e9849b39e78f364f0f8bb410954aa063");
-  background-size: cover;
-  width: 170px;
-  height: 220px;
-  position: relative;
-  top: 0;
-  right: 94px;
-}
-
-.nav-md {
-  display: none;
-}
-
-.nav-sm {
-  display: none;
-}
-
-.fit-text {
-  height: fit-content;
-  font-size: 15px;
-  width: 400px !important;
-}
-
-.dbate {
-  margin-bottom: -10px;
-}
-
-.title-db {
-  width: 63px;
-  height: 63px;
-}
-
-.card-mrg {
-  padding: 0 0 0 0 !important;
-  text-align: center;
-}
-
-.card-db-txt {
-  margin-left: -15px;
-  font-size: 14px;
-  line-height: 0;
-}
-
-.card-db-txt-special {
-  margin-left: -15px;
-  font-size: 14px;
-  line-height: 0;
-}
-
-.more-img {
-  width: 95px;
-  height: 95px;
-}
-
-.more-text {
-  font-size: 15px !important;
-}
-
-.vs {
-  background-color: black;
-  color: white;
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
-  text-align: center;
-  position: relative;
-  top: -30px;
-  right: -115px;
-}
-
-@media (max-width: 1088px) {
-  .font-inmedium {
-    font-size: 10px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .fit-text {
-    width: 250px !important;
-  }
-
-  .text-media {
-    font-size: 11px !important;
-    line-height: 12px !important;
-    padding: 0 !important;
-  }
-
-  .media-size-large {
-    font-size: 13px;
-  }
-
-  .font-inmedium {
-    font-size: 10px;
-  }
-
-  .align-large-media {
-    margin-left: 25px !important;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  body {
-    margin-right: 0 !important;
-    margin-left: 0 !important;
-  }
-
-  .nav-md {
-    display: flex;
-    height: auto;
-  }
-
-  .nav-lg {
-    display: none;
-  }
-
-  .menu {
-    font-size: 20px;
-    color: #d9d9d9;
-  }
-
-  .font-inmedium {
-    font-size: 13px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .nav-sm {
-    display: flex;
-    position: fixed;
-    z-index: 1030;
-    top: 0;
-    overflow: hidden;
-  }
-
-  .nav-md {
-    display: none;
-  }
-
-  .nav-btn-sm {
-    background-color: #ffe400;
-    border: none;
-    border-radius: 20px;
-  }
-
-  .logo-img {
-    width: 100%;
-  }
-
-  .text-media {
-    font-size: 10px !important;
-    line-height: 12px !important;
-    padding: 0 0 0 0 !important;
-  }
-
-  .media-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .fit-text {
-    width: 230px !important;
-  }
-
-  .card-db-txt {
-    margin-left: -95px !important;
-  }
-
-  .card-db-txt-special {
-    margin-left: 55px !important;
-    margin-top: 10px !important;
-  }
-
-  .vs {
-    left: 350px !important;
-  }
-
-  .copy-m {
-    margin-top: 20px;
-  }
-
-  .icon-m {
-    margin-top: 20px;
-  }
-
-  .nav-mobli {
-    position: fixed;
-  }
-
-  .align-large-media {
-    margin-left: 0 !important;
-  }
-}
-
-@media (max-width: 576px) {
-  body {
-    margin-right: 0 !important;
-    margin-left: 0 !important;
-  }
-
-  .footer {
-    display: block !important;
-  }
-
-  .icon-m {
-    margin-bottom: 10px;
-  }
-
-  .footer-icon {
-    width: 300px;
-  }
-
-  .bottom-img {
-    display: none;
-  }
-
-  .c-footer {
-    text-align: center !important;
-  }
-
-  .align-news {
-    padding-left: 70px !important;
-  }
-
-  .text-media {
-    font-size: 19px !important;
-    line-height: 21px !important;
-    padding: 0 !important;
-  }
-
-  .media-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .margin-mobile {
-    margin-top: 15px;
-  }
-
-  .fit-text {
-    width: 300px !important;
-  }
-
-  .padding-cero {
-    padding: 0 !important;
-  }
-
-  .card-db-txt {
-    margin-left: -15px !important;
-  }
-
-  .card-db-txt-special {
-    margin-left: -15px !important;
-    margin-top: 0 !important;
-  }
-
-  .vs {
-    left: 100px !important;
-  }
-
-  .nav-1 {
-    width: 100%;
-    padding: 0 !important;
-  }
-
-  .icon-top {
-    margin-left: -9px !important;
-    margin-right: -9px !important;
-  }
-
-  .icon-top-2 {
-    margin-left: -9px !important;
-  }
-}
-
-@media (max-width: 425px) {
-  .media-large {
-    margin-left: 17px;
-    margin-right: 16px;
-  }
-
-  .media-features {
-    margin-left: 17px;
-  }
-
-  .text-media {
-    font-size: 16px !important;
-  }
-
-  .align-news {
-    padding-left: 50px !important;
-  }
-}
-
-@media (max-width: 375px) {
-  .media-large {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .media-features {
-    margin-left: 0;
-  }
-
-  .text-media {
-    font-size: 12px !important;
-  }
-
-  .align-news {
-    padding-left: 10px !important;
-  }
-
-  .suscribe-1 {
-    position: relative;
-    left: 34px !important;
-  }
-
-  .suscribe-2 {
-    right: 40px !important;
-  }
-}
-
-@media (max-width: 320px) {
-  .suscribe-2 {
-    right: 10px !important;
-  }
-
-  .suscribe-1 {
-    position: initial;
-  }
-}
-
-@media (max-width: 425px) {
-  .media-large {
-    margin-left: 17px;
-    margin-right: 16px;
-  }
-
-  .media-features {
-    margin-left: 17px;
-  }
-
-  .text-media {
-    font-size: 16px !important;
-  }
-
-  .align-news {
-    padding-left: 50px !important;
-  }
-}
-
-@media (max-width: 375px) {
-  .media-large {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .media-features {
-    margin-left: 0;
-  }
-
-  .text-media {
-    font-size: 12px !important;
-  }
-
-  .align-news {
-    padding-left: 10px !important;
-  }
-}
-
-@media (max-width: 320px) {
-  .suscribe-2 {
-    right: 10px !important;
-  }
-}
+                            body {
+                                box-sizing: border-box;
+                                margin: 0 90px;
+                                border: 1px solid rgb(241, 231, 231);
+                                overflow-x: hidden;
+                            }
+                            
+                            a {
+                                color: black;
+                            }
+                            
+                            .nav-color {
+                                background: rgb(250, 0, 28);
+                                background: rgb(247, 34, 16);
+                            }
+                            
+                            .botton-radius {
+                                border-radius: 20px;
+                            }
+                            
+                            .logo-img-lg {
+                                width: 500px;
+                            }
+                            
+                            .bg-orange {
+                                background-color: rgb(247, 34, 16);
+                            }
+                            
+                            .btn-orange {
+                                color: white;
+                                background-color: rgb(247, 34, 16);
+                                border-color: rgb(247, 34, 16);
+                            }
+                            
+                            .text-orange {
+                                color: rgb(247, 34, 16);
+                            }
+                            
+                            .in-img {
+                                margin-top: -30px;
+                            }
+                            
+                            .icon {
+                                background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+                                width: 29px;
+                                height: 28px;
+                                margin-right: 3px;
+                            }
+                            
+                            .f {
+                                display: flex;
+                                margin: 0;
+                                padding: 0;
+                                overflow: hidden;
+                            }
+                            
+                            .f2 {
+                                font-size: 14px;
+                                margin-left: 5px;
+                            }
+                            
+                            .align {
+                                position: relative;
+                                top: -210px;
+                                right: 15px;
+                            }
+                            
+                            .bg-litegray {
+                                background-color: rgb(244, 245, 246);
+                                height: fit-content;
+                            }
+                            
+                            .bottom-img {
+                                height: 240px;
+                            }
+                            
+                            .input {
+                                width: 140px;
+                                margin-bottom: 5px;
+                            }
+                            
+                            .copy-m {
+                                margin-top: 20px;
+                            }
+                            
+                            .icon-m {
+                                margin-top: 20px;
+                                width: 20px;
+                                height: 20px;
+                            }
+                            
+                            .m-bottom {
+                                margin-bottom: -15px;
+                            }
+                            
+                            .font-bottom {
+                                font-size: 12px;
+                            }
+                            
+                            .m-features {
+                                margin: -9px 0 0 0;
+                            }
+                            
+                            .m-top-img {
+                                margin-top: 20px;
+                            }
+                            
+                            .right-sec {
+                                width: 250px;
+                                margin: 50px 10px 10px 0;
+                            }
+                            
+                            .nav-btn {
+                                font-size: 16px;
+                                width: 250px;
+                                background-color: #ffe400;
+                                border: none;
+                                border-radius: 20px;
+                            }
+                            
+                            .nav-info {
+                                margin-left: 10px;
+                                width: 150px;
+                            }
+                            
+                            .w-img {
+                                width: 10%;
+                                height: 10%;
+                            }
+                            
+                            .footer-icon {
+                                width: 236px;
+                                height: 60px;
+                            }
+                            
+                            .suscribe-1 {
+                                background-image: url("https://d.newsweek.com/en/full/1610195/cover-july-24-2020.jpg?w=170&q=95&f=2ea70c30e8f5467c1e61021ae9778138");
+                                background-size: cover;
+                                width: 170px;
+                                height: 220px;
+                            }
+                            
+                            .suscribe-2 {
+                                background-image: url("https://d.newsweek.com/en/full/1611327/cover-july-31-august-07-2020.jpg?w=170&q=95&f=e9849b39e78f364f0f8bb410954aa063");
+                                background-size: cover;
+                                width: 170px;
+                                height: 220px;
+                                position: relative;
+                                top: 0;
+                                right: 94px;
+                            }
+                            
+                            .fit-text {
+                                height: fit-content;
+                                font-size: 15px;
+                                width: 400px !important;
+                            }
+                            
+                            .dbate {
+                                margin-bottom: -10px;
+                            }
+                            
+                            .title-db {
+                                width: 63px;
+                                height: 63px;
+                            }
+                            
+                            .card-mrg {
+                                padding: 0 !important;
+                                text-align: center;
+                            }
+                            
+                            .card-db-txt {
+                                margin-left: -15px;
+                                font-size: 14px;
+                                line-height: 0;
+                            }
+                            
+                            .card-db-txt-special {
+                                margin-left: -15px;
+                                font-size: 12px;
+                                line-height: 0;
+                            }
+                            
+                            .more-img {
+                                width: 95px;
+                                height: 95px;
+                            }
+                            
+                            .more-text {
+                                font-size: 15px !important;
+                            }
+                            
+                            .vs {
+                                background-color: black;
+                                color: white;
+                                border-radius: 50%;
+                                width: 32px;
+                                height: 32px;
+                                text-align: center;
+                                position: relative;
+                                top: -30px;
+                                right: -115px;
+                            }
+                            
+                            @media (max-width: 1088px) {
+                                .font-inmedium {
+                                    font-size: 10px;
+                                }
+                            }
+                            
+                            @media (max-width: 1024px) {
+                                .fit-text {
+                                    width: 250px !important;
+                                }
+                                .text-media {
+                                    font-size: 12px !important;
+                                    line-height: 12px !important;
+                                    padding: 0 !important;
+                                }
+                                .media-size-large {
+                                    font-size: 13px;
+                                }
+                                .font-inmedium {
+                                    font-size: 10px;
+                                }
+                                .align-large-media {
+                                    margin-left: 25px !important;
+                                }
+                            }
+                            
+                            @media screen and (max-width: 991px) {
+                                body {
+                                    margin: 0;
+                                }
+                                .nav-md {
+                                    display: flex;
+                                    height: auto;
+                                }
+                                .nav-lg {
+                                    display: none;
+                                }
+                                .menu {
+                                    font-size: 20px;
+                                    color: #d9d9d9;
+                                }
+                                .font-inmedium {
+                                    font-size: 13px;
+                                }
+                            }
+                            
+                            @media screen and (max-width: 768px) {
+                                .nav-sm {
+                                    display: flex;
+                                }
+                                .nav-md {
+                                    display: none;
+                                }
+                                .nav-btn-sm {
+                                    background-color: #ffe400;
+                                    border: none;
+                                    border-radius: 20px;
+                                }
+                                .logo-img {
+                                    width: 100%;
+                                }
+                                .text-media {
+                                    font-size: 10px;
+                                }
+                                .media-img {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                }
+                                .fit-text {
+                                    width: 230px !important;
+                                }
+                                .card-db-txt {
+                                    margin-left: -95px;
+                                }
+                                .card-db-txt-special {
+                                    margin-left: 55px;
+                                    margin-top: 10px;
+                                }
+                                .vs {
+                                    left: 350px !important;
+                                }
+                                .copy-m {
+                                    margin-top: 20px;
+                                }
+                                .icon-m {
+                                    margin-top: 20px;
+                                }
+                                .nav-mobli {
+                                    position: fixed;
+                                }
+                                .align-large-media {
+                                    margin-left: 0;
+                                }
+                            }
+                            
+                            @media (max-width: 576px) {
+                                body {
+                                    margin: 0;
+                                }
+                                .icon-m {
+                                    margin-bottom: 10px;
+                                }
+                                .footer-icon {
+                                    width: 300px;
+                                }
+                                .bottom-img {
+                                    display: none;
+                                }
+                                .c-footer {
+                                    text-align: center;
+                                }
+                                .align-news {
+                                    padding-left: 70px !important;
+                                }
+                                .text-media {
+                                    font-size: 15px !important;
+                                    line-height: 18px !important;
+                                }
+                                .media-img {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                }
+                                .margin-mobile {
+                                    margin-top: 15px;
+                                }
+                                .fit-text {
+                                    width: 300px !important;
+                                }
+                                .padding-cero {
+                                    padding: 0;
+                                }
+                                .card-db-txt {
+                                    margin-left: -15px !important;
+                                }
+                                .card-db-txt-special {
+                                    margin: 0 0 0 -15 !important;
+                                }
+                                .vs {
+                                    left: 100px !important;
+                                }
+                                .nav-1 {
+                                    width: 100%;
+                                }
+                                .icon-top {
+                                    margin-left: -9px;
+                                    margin-right: -9px;
+                                }
+                                .icon-top-2 {
+                                    margin-left: -9px;
+                                }
+                            }
+                            
+                            @media (max-width: 425px) {
+                                .media-large {
+                                    margin-left: 17px;
+                                    margin-right: 16px;
+                                }
+                                .media-features {
+                                    margin-left: 17px;
+                                }
+                                .text-media {
+                                    font-size: 16px !important;
+                                }
+                                .align-news {
+                                    padding-left: 50px !important;
+                                }
+                            }
+                            
+                            @media (max-width: 375px) {
+                                .media-large {
+                                    margin-left: 0;
+                                    margin-right: 0;
+                                }
+                                .media-features {
+                                    margin-left: 0;
+                                }
+                                .text-media {
+                                    font-size: 12px !important;
+                                }
+                                .align-news {
+                                    padding-left: 10px !important;
+                                }
+                                .suscribe-1 {
+                                    position: relative;
+                                    left: 34px !important;
+                                }
+                                .suscribe-2 {
+                                    right: 40px !important;
+                                }
+                            }
+                            
+                            @media (max-width: 425px) {
+                                .media-large {
+                                    margin-left: 17px;
+                                    margin-right: 16px;
+                                }
+                                .media-features {
+                                    margin-left: 17px;
+                                }
+                                .text-media {
+                                    font-size: 16px !important;
+                                }
+                                .align-news {
+                                    padding-left: 50px !important;
+                                }
+                            }
+                            
+                            @media (max-width: 375px) {
+                                .media-large {
+                                    margin-left: 0;
+                                    margin-right: 0;
+                                }
+                                .media-features {
+                                    margin-left: 0;
+                                }
+                                .text-media {
+                                    font-size: 12px !important;
+                                }
+                                .align-news {
+                                    padding-left: 10px !important;
+                                }
+                            }
+                            
+                            @media (max-width: 320px) {
+                                .suscribe-1 {
+                                    position: initial;
+                                }
+                                .suscribe-2 {
+                                    right: 10px !important;
+                                }
+                            }
