@@ -358,4 +358,18 @@ a {
     .vs {
         left: 100px !important;
     }
+    .nav-1 {
+        width: 100%;
+        padding: 0 0 0 0 !important;
+    }
+    .logo-img {
+        margin-left: -16px;
+    }
+    .icon-top {
+        margin-left: -9px !important;
+        margin-right: -9px !important;
+    }
+    .icon-top-2 {
+        margin-left: -9px !important;
+    }
 }
