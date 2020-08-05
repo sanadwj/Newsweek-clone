@@ -373,7 +373,7 @@ a {
   }
 
   .card-db-txt-special {
-    margin: 0 0 0 -15 !important;
+    margin-left: -15 !important;
   }
 
   .vs {
