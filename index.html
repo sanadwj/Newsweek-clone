@@ -13,11 +13,11 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </head>
     <body >
-        <header class="container">
+        <header class=" container-fluid">
             <div class="nav-lg">
-                <div class=" d-flex justify-content-between align-items-center  nav-color p-0 m-0 ">
+                <div class=" d-flex justify-content-around align-items-center  nav-color ">
                
-                    <div class="col-3  ">
+                    <div class="nav-info">
                             <div class="d-flex  text-white font-weight-bold nav-w">
                                 <img alt="cloud"class="w-img mr-1" src="https://img.icons8.com/all/500/cloud.png">
                                 <span>19°  Morelia, MX</span>
@@ -25,12 +25,12 @@
                             <date class="text-white font-weight-bold">Mon, Aug 03 , 2020</date>
                             
                     </div>
-                    <div class="col-6 ">
-                        <a  href="#"><img alt="main-logo" class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/d/db/Newsweek_Logo.svg"></a>
+                    <div  >
+                        <a  href="#"><img alt="main-logo" class="img-fluid logo-img-lg" src="https://upload.wikimedia.org/wikipedia/commons/d/db/Newsweek_Logo.svg"></a>
                     </div>
-                    <div class="col-3 d-flex  flex-end ">
-                            <button class="btn btn-link font-weight-bold text-white nav-btn">LOGIN</button>
-                            <button class="btn btn-warning font-weight-bold botton-radius nav-btn ">SUSCRIBE ></button>
+                    <div class="d-flex  flex-end flex-nowrap right-sec">
+                            <button class="btn btn-link font-weight-bold text-white nav-btn-one">LOGIN</button>
+                            <button class="nav-btn font-weight-bold">SUSCRIBE   <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
                     </div>
                 </div>
                 
@@ -98,23 +98,23 @@
                     </ul>
                 </div>
             </div>
-            <nav class="nav-color navbar navbar-collapse nav-md">
+            <nav class="nav-color navbar navbar-collapse nav-md p-1">
                 <div class="d-flex flex-row justify-content-between flex-nowrap ">
-                    <img  class="col-3 img-fluid logo-img" src="https://upload.wikimedia.org/wikipedia/commons/d/db/Newsweek_Logo.svg" alt="1">
-                    <div class=" d-flex flex-row flex-nowrap justify-content-between align-items-center">
+                    <img  class=" col-3 img-fluid logo-img p-0" src="https://upload.wikimedia.org/wikipedia/commons/d/db/Newsweek_Logo.svg" alt="1">
+                    <div class="d-flex flex-row flex-nowrap justify-content-around align-items-center">
                         <button class="btn btn-link font-weight-bold text-white ">LOGIN</button>
                         <button class="btn btn-warning font-weight-bold botton-radius ">SUBSCRIBE ></button>
-                        <div class="pl-3 menu"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                        <div class="menu p-1"><i class="fa fa-bars" aria-hidden="true"></i></div>
                     </div>
                 </div>
                 
             </nav>
             <nav class="nav-color navbar navbar-collapse nav-sm">
                 <div class="d-flex flex-row justify-content-between flex-nowrap ">
-                    <img  class="col-3 img-fluid logo-img" src="https://upload.wikimedia.org/wikipedia/commons/d/db/Newsweek_Logo.svg" alt="2">
+                    <img  class="col-6 img-fluid logo-img p-0" src="https://upload.wikimedia.org/wikipedia/commons/d/db/Newsweek_Logo.svg" alt="2">
                     <div class=" d-flex flex-row flex-nowrap justify-content-between align-items-center">
                         <button class="btn btn-link font-weight-bold text-white "><i class="fa fa-user" aria-hidden="true"></i></button>
-                        <button class="btn btn-warning font-weight-bold botton-radius ">SUBSCRIBE ></button>
+                        <button class="nav-btn-sm font-weight-bold">SUBSCRIBE900></button>
                         <div class="pl-3 menu"><i class="fa fa-bars" aria-hidden="true"></i></div>
                     </div>
                 </div>
@@ -129,7 +129,7 @@
 
 
 
-        <section class="container  ">
+        <section class="container-fluid ">
             <div class="container-fluid d-flex flex-row justify-content-center flex-wrap w-auto story">
                 <div class="col-12 col-sm-12 col-md-4 col-lg-3 order-md-1 order-sm-1 order-1 pt-3">
                     <div class="d-sm-block d-md-block d-lg-block d-xl-block">
@@ -177,7 +177,7 @@
                             <p class="card-text">Chaos over mail-in ballots and distrust of the results could trigger an existential crisis for American democracy.</p>
                         </div>
                     </div>
-                    <div class="container pt-4 ">
+                    <div class="container-fluid pt-4 ">
                         <h5 class="block-title ">MY TURN</h5>
                         <div class="row">
                             <div class="card border-0 p-2 col-12 col-sm-12 col-md-4 col-lg-4">
@@ -196,7 +196,7 @@
                         
                         
                     </div>
-                    <div class="container">
+                    <div class="container-fluid">
                         <h5 class="block-title">CULTURE & TRAVEL</h5>
                         <div class="row">
                             <div class="card border-0 p-2 col-12 col-sm-12 col-md-4 col-lg-4">
@@ -215,7 +215,7 @@
                         
                         
                     </div>
-                    <div class="container">
+                    <div class="container-fluid">
                         <div>
                             <h5>MORE STORIES</h5>
                         </div>
@@ -223,9 +223,9 @@
                         <div class="col-sm-12 col-md-12 col-lg-12 order-md-2 more-stories">
                             <div class="row">
                                 <div class="col-3">
-                                    <img class="card-img-top w-150 h-75" src="./graphics/my-turn-three.webp" alt="15">
+                                    <img class="card-img-top " src="./graphics/my-turn-three.webp" alt="15">
                                 </div>
-                                <div class="col-9">
+                                <div class="col-6">
                                     <h6 class="font-weight-bold"><a href="">Michigan Republican State Senator Tests Positive for COVID-19</a></h6>
                                     <h6>"Thankfully I do not have any significant symptoms at this time, and I will be self-isolating according to medical guidelines," state Senator Tom Barrett said in a statement.</h6>
                                 </div>
@@ -349,19 +349,17 @@
                 </div>
                 <div class="col-12 col-sm-12 col-lg-3 col-md-12 order-md-3 order-3 order-sm-3 pt-3 mb-2">
                     <div class="debate">
-                            <h5>THE DEBATE</h5>
+                            <h5 class="text-muted dbate">THE DEBATE</h5>
                         <hr>
                         <div>
                             <div class="row ">
-                                <div class="col-4">
-                                    <img class="card-img-top" src="./graphics/debate-one.webp" alt="27">
+                                <div class="col-4 card-mrg">
+                                    <img class="title-db" src="./graphics/debate-one.webp" alt="27">
                                 </div>
                                 <div class="col-8">
-                                    <div>
-                                        <h6 class="card-title ">Public Safety Requires Thinking Outside the Cell</h6>
-                                    </div>
-                                    <div>
-                                        <p class="card-text">BY MARC LEVIN</p>
+                                    <div class="card-db-txt">
+                                        <h6 class="card-title font-weight-bold">Public Safety Requires Thinking Outside the Cell</h6>
+                                        <span class="card-text">BY MARC LEVIN</span>
                                     </div>
                                 </div>
                                 
@@ -369,19 +367,17 @@
                         </div>
                         
                         <hr>
-                        <div class="container pt-3">
+                        <div class="container-fluid pt-3">
                             <div class="row">
                                 <div class="col-8">
-                                    <div>
-                                        <h6 class="card-title  ">Public Safety Requires Thinking Outside the Cell</h6>
-                                    </div>
-                                    <div>
-                                        <p class="card-text">BY MARC LEVIN</p>
+                                    <div class="card-db-txt">
+                                        <h6 class="card-title  font-weight-bold">Public Safety Requires Thinking Outside the Cell</h6>
+                                        <span class="title-db">BY MARC LEVIN</span>
                                     </div>
                                 </div>
                                 
                                 <div class="col-4">
-                                    <img class="card-img-top" src="./graphics/debate-two.webp" alt="28">
+                                    <img class="title-db" src="./graphics/debate-two.webp" alt="28">
                                 </div>
                             </div>
                         </div>
@@ -504,7 +500,7 @@
             </div>
             
         </section>
-        <div class="container mb-3">
+        <div class="container-fluid mb-3">
             <div class="row justify-content-center">
                 <span class="icon"></span>
                 <span class="font-weight-bold"> IN THE MAGAZINE</span>
@@ -517,7 +513,7 @@
                         <span class="d-inline p-2 bg-secondary text-orange font-weight-bold ">AUGUST 07 ISSUE</span>
                     </div>
                     <div class="row p-2 bg-secondary text-center m-features">
-                        <span class="font-weight-bold text-dark">SEE AL FEATURES ></span>
+                        <span class="font-weight-bold text-dark">SEE AL FEATURES></span>
                     </div>
                 </div>
                 <div class="col-lg col-md-3 col-sm-6">
@@ -579,7 +575,7 @@
                 </div>
             </div>
         </div>
-        <div class="container mb-3">
+        <div class="container-fluid mb-3">
             <div class="row justify-content-center">
                 <span class="icon"></span>
                 <span class="font-weight-bold"> EDITOR'S PICK</span>
@@ -659,40 +655,44 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <hr>
             <span class="font-weight-bold text-orange"> U.S.</span>
             <div class="row">
                 <div class="col-lg col-md-4 col-sm-6">
-                    <img alt="52" class="img-fluid" src="https://d.newsweek.com/en/full/1617782/brett-giroir.jpg?w=397&h=265&f=409a7115bcaee4b3b2dfb1a89297146e">
-                    <span class="font-weight-bold">Trump Official Believes 85% Masks Use Would Bring Same Outcome as Shutdown</span>
+                    <img alt="52" class="img-fluid" src="https://d.newsweek.com/en/full/1617782/brett-giroir.jpg?w=397&h=265&f=409a7115bcaee4b3b2dfb1a89297146e"><br>
+                    <div class="fit-text">
+                        <span class="font-weight-bold" >Trump Official Believes 85% Masks Use Would Bring Same Outcome as Shutdown</span>
+                    </div>
                 </div>
                 <div class="col-lg col-md-4 col-sm-6 mb-sm-6">
-                    <img alt="53" class="img-fluid" src="https://d.newsweek.com/en/full/1617768/coronavirus-us.jpg?w=397&h=265&f=25d3f3e838ce7b4106d3dd3598e84d5b">
-                    <span class="font-weight-bold">Majority Disapprove of Trump Promoting Hydroxychloroquine</span>
+                    <img alt="53" class="img-fluid" src="https://d.newsweek.com/en/full/1617768/coronavirus-us.jpg?w=397&h=265&f=25d3f3e838ce7b4106d3dd3598e84d5b"><br>
+                    <div class="fit-text">
+                        <span class="font-weight-bold fit-text">Majority Disapprove of Trump Promoting Hydroxychloroquine</span>
+                    </div>
                 </div>
-                <div class="col-lg col-md-4 col-sm-6">
+                <div class="col-lg col-md-4 col-sm-6 margin-mobile">
                     <div class="row  d-flex mb-3">
                         <div class="col-4">
-                            <img alt="54" class="img-fluid" src="https://d.newsweek.com/en/full/1617764/mitch-mcconnell.jpg?w=397&h=265&f=8ec9384cd27ab518932d55791ff84919">
+                            <img alt="54" class="img-fluid media-img" src="https://d.newsweek.com/en/full/1617764/mitch-mcconnell.jpg?w=397&h=265&f=8ec9384cd27ab518932d55791ff84919">
                         </div>
-                        <div class="col-7">
+                        <div class="col-7 text-media">
                             <span class="font-weight-bold ">As Second Stimulus Checks Stall, Mitch McConnell's Approval Rating Drops</span>
                         </div>
                     </div>
                     <div class="row f mb-3">
                         <div class="col-4">
-                            <img alt="55" class="img-fluid" src="https://d.newsweek.com/en/full/1617753/tropical-storm-isaias.png?w=95&h=95&f=be0400d47275c5a043174f02f4594d0c">
+                            <img alt="55" class="img-fluid media-img" src="https://d.newsweek.com/en/full/1617753/tropical-storm-isaias.png?w=95&h=95&f=be0400d47275c5a043174f02f4594d0c">
                         </div>
-                        <div class="col-7 ">
+                        <div class="col-7 text-media">
                             <span class="font-weight-bold ">Texas Man's Obituary Blames Trump, Governor Abbott for COVID-19 Death</span>
                         </div>
                     </div>
                     <div class="row d-flex p-2">
                         <div class="col-4">
-                            <img alt="56" class="img-fluid" src="https://d.newsweek.com/en/full/1617755/border-wall.jpg?w=95&h=95&f=b9afc4d79a2dfeb36ea4f1487f68f766">
+                            <img alt="56" class="img-fluid media-img" src="https://d.newsweek.com/en/full/1617755/border-wall.jpg?w=95&h=95&f=b9afc4d79a2dfeb36ea4f1487f68f766">
                         </div>
-                        <div class="col-7 ">
+                        <div class="col-7 text-media">
                             <span class="font-weight-bold ">Picking Karen Bass as VP Could Cost Biden Cuban-American Vote</span>
                         </div>
                     </div>
@@ -700,39 +700,43 @@
             </div>
             <hr>
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <span class="font-weight-bold text-orange"> WORLD</span>
             <div class="row">
                 <div class="col-lg col-md-4 col-sm-6">
-                    <img alt="57" class="img-fluid" src="https://d.newsweek.com/en/full/1617612/ricardas-puisys.jpg?w=397&h=265&f=8b59ba8a1b0ccb35a7ed63af16c8d0e3">
-                    <span class="font-weight-bold">Man Who Officers Thought Was Murdered Five Years Ago Found Alive in Woods</span>
+                    <img alt="57" class="img-fluid" src="https://d.newsweek.com/en/full/1617612/ricardas-puisys.jpg?w=397&h=265&f=8b59ba8a1b0ccb35a7ed63af16c8d0e3"><br>
+                    <div class="fit-text">
+                        <span class="font-weight-bold fit-text">Man Who Officers Thought Was Murdered Five Years Ago Found Alive in Woods</span>
+                    </div>
                 </div>
                 <div class="col-lg col-md-4 col-sm-6 mb-sm-3">
-                    <img alt="58" class="img-fluid" src="https://d.newsweek.com/en/full/1617512/tiktok-china-donald-trump-microsoft-state-media.jpg?w=397&h=265&f=9963d7bace2de60dc4df2fededeb7c6b">
-                    <span class="font-weight-bold">'Rogue' Trump Admin, Microsoft Are 'Looting' TikTok: China Media</span>
+                    <img alt="58" class="img-fluid" src="https://d.newsweek.com/en/full/1617512/tiktok-china-donald-trump-microsoft-state-media.jpg?w=397&h=265&f=9963d7bace2de60dc4df2fededeb7c6b"><br>
+                    <div class="fit-text">
+                        <span class="font-weight-bold fit-text">'Rogue' Trump Admin, Microsoft Are 'Looting' TikTok: China Media</span>
+                    </div>
                 </div>
-                <div class="col-lg col-md-4 col-sm-6">
+                <div class="col-lg col-md-4 col-sm-6 margin-mobile">
                     <div class="row  f mb-3">
                          <div class="col-4">
-                            <img alt="59" class="img-fluid" src="https://d.newsweek.com/en/full/1617508/eat-out-help-out.jpg?w=397&h=265&f=4d5a5ae5622274cc162bd598ba8eb2c0">
+                            <img alt="59" class="img-fluid media-img" src="https://d.newsweek.com/en/full/1617508/eat-out-help-out.jpg?w=397&h=265&f=4d5a5ae5622274cc162bd598ba8eb2c0">
                         </div>
-                        <div class="col-7 ">
+                        <div class="col-7 text-media ">
                             <span class="font-weight-bold ">ISIS Jailbreak in Afghanistan Prompts Mass Manhunt For Escaped Prisoners</span>
                         </div>
                     </div>
                     <div class="row f mb-3">
                          <div class="col-4">
-                            <img alt="60" class="img-fluid" src="https://d.newsweek.com/en/full/1617486/hiroshima.jpg?w=95&h=95&l=51&t=52&f=f8329678d082ed089a3169d5a5dc4a12">
+                            <img alt="60" class="img-fluid media-img" src="https://d.newsweek.com/en/full/1617486/hiroshima.jpg?w=95&h=95&l=51&t=52&f=f8329678d082ed089a3169d5a5dc4a12">
                         </div>
-                        <div class="col-7 ">
+                        <div class="col-7 text-media">
                             <span class="font-weight-bold ">Sweden COVID-19 Death Rate Lower Than Spain, Italy and U.K.</span>
                         </div>
                     </div>
                     <div class="row d-flex p-2">
                          <div class="col-4">
-                            <img alt="61" class="img-fluid" src="https://d.newsweek.com/en/full/1611753/mike-pompeo.jpg?w=95&h=95&f=1ea55c88ca6e59c2061012b4bbeb2f0b">
+                            <img alt="61" class="img-fluid media-img" src="https://d.newsweek.com/en/full/1611753/mike-pompeo.jpg?w=95&h=95&f=1ea55c88ca6e59c2061012b4bbeb2f0b">
                         </div>
-                        <div class="col-7 ">
+                        <div class="col-7 text-media">
                             <span class="font-weight-bold ">'Rogue' Trump Admin, Microsoft Are 'Looting' TikTok: China Media</span>
                         </div>
                     </div>
@@ -740,39 +744,43 @@
             </div>
             <hr>
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <span class="font-weight-bold text-orange"> BUSINESS</span>
             <div class="row">
                 <div class="col-lg col-md-4 col-sm-6">
-                    <img alt="62" class="img-fluid" src="https://d.newsweek.com/en/full/1613906/hand-sanitizer-recall.jpg?w=397&h=265&f=260cd3e2f2d48958e0711cda171a1d74">
-                    <span class="font-weight-bold">Walmart, Target Among Stores Selling These Newly-Recalled Hand Sanitizers</span>
+                    <img alt="62" class="img-fluid" src="https://d.newsweek.com/en/full/1613906/hand-sanitizer-recall.jpg?w=397&h=265&f=260cd3e2f2d48958e0711cda171a1d74"><br>
+                    <div class="fit-text">
+                        <span class="font-weight-bold fit-text">Walmart, Target Among Stores Selling These Newly-Recalled Hand Sanitizers</span>
+                    </div>
                 </div>
                 <div class="col-lg col-md-4 col-sm-6 mb-sm-3">
-                    <img alt="63" class="img-fluid" src="https://d.newsweek.com/en/full/1611914/labor-department-unemployment-benefits-jobless.jpg?w=397&h=265&f=0cd1f0d1327944e970351aff852309d3">
-                    <span class="font-weight-bold">Labor Secretary: $600 Unemployment Benefits Paid People More Not to Work</span>
+                    <img alt="63" class="img-fluid" src="https://d.newsweek.com/en/full/1611914/labor-department-unemployment-benefits-jobless.jpg?w=397&h=265&f=0cd1f0d1327944e970351aff852309d3"><br>
+                    <div class="fit-text">
+                        <span class="font-weight-bold fit-text">Labor Secretary: $600 Unemployment Benefits Paid People More Not to Work</span>
+                    </div>
                 </div>
-                <div class="col-lg col-md-4 col-sm-6">
+                <div class="col-lg col-md-4 col-sm-6 margin-mobile">
                     <div class="row  f mb-3">
                         <div class="col-4">
-                            <img alt="64" class="img-fluid" src="https://d.newsweek.com/en/full/1611066/nba-china-us-companies-business.jpg?w=397&h=265&f=4288bba9fc438f5f43b13d1a4d09638d">
+                            <img alt="64" class="img-fluid media-img" src="https://d.newsweek.com/en/full/1611066/nba-china-us-companies-business.jpg?w=397&h=265&f=4288bba9fc438f5f43b13d1a4d09638d">
                         </div>
-                        <div class="col-7 ">
+                        <div class="col-7 text-media">
                             <span class="font-weight-bold ">GOP Senator Drafting Bill to Block U.S. Companies From 'Giving in' to China</span>
                         </div>
                     </div>
                     <div class="row f mb-3">
                         <div class="col-4">
-                            <img alt="65" class="img-fluid" src="https://d.newsweek.com/en/full/1610689/us-economy-china-coronavirus-recovery.jpg?w=95&h=95&f=9c9b99f2263e620ce6a15869d379d4ea">
+                            <img alt="65" class="img-fluid media-img" src="https://d.newsweek.com/en/full/1610689/us-economy-china-coronavirus-recovery.jpg?w=95&h=95&f=9c9b99f2263e620ce6a15869d379d4ea">
                         </div>
-                        <div class="col-7 ">
+                        <div class="col-7 text-media">
                              <span class="font-weight-bold">As China Media Hails Superior Recovery, Americans Pessimistic About Economy</span>
                         </div> 
                     </div>
                     <div class="row d-flex p-2">
                         <div class="col-4">
-                            <img alt="66" class="img-fluid" src="https://d.newsweek.com/en/full/1610070/china-us-economy-recovery-coronavirus-recession-growth.jpg?w=95&h=95&f=53e9df853a66dc18d8d0292946f8405f">
+                            <img alt="66" class="img-fluid media-img" src="https://d.newsweek.com/en/full/1610070/china-us-economy-recovery-coronavirus-recession-growth.jpg?w=95&h=95&f=53e9df853a66dc18d8d0292946f8405f">
                         </div>
-                        <div class="col-7 ">
+                        <div class="col-7 text-media">
                             <span class="font-weight-bold">China Celebrates Coronavirus Economy Recovery As U.S. Battles Recession</span>
                         </div> 
                     </div>
@@ -780,39 +788,43 @@
             </div>
             <hr>
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <span class="font-weight-bold text-orange"> TEACH & SCIENCE</span>
             <div class="row">
                 <div class="col-lg col-md-4 col-sm-6">
-                    <img alt="67" class="img-fluid" src="https://d.newsweek.com/en/full/1617537/moon-new-york-city.jpg?w=397&h=265&f=2dd77da0e42492f81b6c5eb2df225278">
-                    <span class="font-weight-bold">August's Full Sturgeon Moon Rises Tonight As Incredible Images Captured</span>
+                    <img alt="67" class="img-fluid" src="https://d.newsweek.com/en/full/1617537/moon-new-york-city.jpg?w=397&h=265&f=2dd77da0e42492f81b6c5eb2df225278"><br>
+                    <div class="fit-text">
+                        <span class="font-weight-bold fit-text">August's Full Sturgeon Moon Rises Tonight As Incredible Images Captured</span>
+                    </div>
                 </div>
                 <div class="col-lg col-md-4 col-sm-6 mb-sm-3">
-                    <img alt="68" class="img-fluid" src="https://d.newsweek.com/en/full/1617493/tiktok-logo.jpg?w=397&h=265&f=83d7779cb5b6aa34b93e1b26de8566d7">
-                    <span class="font-weight-bold">Is Trump Banning TikTok in America, and When Could It Happen?</span>
+                    <img alt="68" class="img-fluid" src="https://d.newsweek.com/en/full/1617493/tiktok-logo.jpg?w=397&h=265&f=83d7779cb5b6aa34b93e1b26de8566d7"><br>
+                    <div class="fit-text">
+                        <span class="font-weight-bold fit-text">Is Trump Banning TikTok in America, and When Could It Happen?</span>
+                    </div>
                 </div>
-                <div class="col-lg col-md-4 col-sm-6">
+                <div class="col-lg col-md-4 col-sm-6 margin-mobile">
                     <div class="row  f mb-3">
                          <div class="col-4">
-                            <img alt="69" class="img-fluid" src="https://d.newsweek.com/en/full/1616980/novel-coronavirus-vaccine-candidate.jpg?w=397&h=265&f=0521103f7f72b71947cbee768da39ba2">
+                            <img alt="69" class="img-fluid media-img" src="https://d.newsweek.com/en/full/1616980/novel-coronavirus-vaccine-candidate.jpg?w=397&h=265&f=0521103f7f72b71947cbee768da39ba2">
                         </div>
-                        <div class="col-7 ">
+                        <div class="col-7 text-media">
                             <span class="font-weight-bold ">COVID-19 Vaccine Research 'Fair Game' for Cyber-Spies, Experts Warn</span> 
                         </div>
                     </div>
                     <div class="row f mb-3">
                          <div class="col-4">
-                            <img alt="70" class="img-fluid" src="https://d.newsweek.com/en/full/1616474/mark-zuckerberg.jpg?w=95&h=95&f=aa71282e64068300543295723f95e4fc">
+                            <img alt="70" class="img-fluid media-img" src="https://d.newsweek.com/en/full/1616474/mark-zuckerberg.jpg?w=95&h=95&f=aa71282e64068300543295723f95e4fc">
                         </div>
-                        <div class="col-7 ">
+                        <div class="col-7 text-media">
                             <span class="font-weight-bold">Zuckerberg 'Troubled' by Ad Targeting as Facebook Posts 18.3B Q2 Ad Revenue</span>
                         </div>
                     </div>
                     <div class="row d-flex p-2">
                          <div class="col-4">
-                            <img alt="71" class="img-fluid" src="https://d.newsweek.com/en/full/1616408/david-duke.jpg?w=95&h=95&f=e77394013963b58ae4550dd59e5bb03e">
+                            <img alt="71" class="img-fluid media-img" src="https://d.newsweek.com/en/full/1616408/david-duke.jpg?w=95&h=95&f=e77394013963b58ae4550dd59e5bb03e">
                         </div>
-                        <div class="col-7 ">
+                        <div class="col-7 text-media">
                             <span class="font-weight-bold">White Supremacist David Duke Permanently Banned from Twitter</span>
                         </div>
                     </div>
@@ -820,39 +832,43 @@
             </div>
             <hr>
         </div>
-        <div class="container">
+        <div class="container-fluid ">
             <span class="font-weight-bold text-orange"> CULTURE</span>
-            <div class="row">
+            <div class="row ">
                 <div class="col-lg col-md-4 col-sm-6">
-                    <img alt="72" class="img-fluid" src="https://d.newsweek.com/en/full/1617784/adt-scores-big-google-nest.jpg?w=397&h=265&f=68a34a5f8888cad2c363afb48285190b">
-                    <span class="font-weight-bold">ADT Scores Big With Google Nest Despite Former Security Leak</span>
+                    <img alt="72" class="img-fluid" src="https://d.newsweek.com/en/full/1617784/adt-scores-big-google-nest.jpg?w=397&h=265&f=68a34a5f8888cad2c363afb48285190b"><br>
+                    <div class="fit-text">
+                        <span class="font-weight-bold fit-text">ADT Scores Big With Google Nest Despite Former Security Leak</span>
+                    </div>
                 </div>
                 <div class="col-lg col-md-4 col-sm-6 mb-sm-3">
-                    <img alt="73" class="img-fluid" src="https://d.newsweek.com/en/full/1610049/ghislaine-maxwell-cipriani-wall-street.jpg?w=397&h=265&f=46e64f0e7eebe947ae7c6ff091228cbe">
-                    <span class="font-weight-bold">Why No Ghislaine Maxwell Pictures Have Been Released Since Her Arrest</span>
+                    <img alt="73" class="img-fluid" src="https://d.newsweek.com/en/full/1610049/ghislaine-maxwell-cipriani-wall-street.jpg?w=397&h=265&f=46e64f0e7eebe947ae7c6ff091228cbe"><br>
+                    <div class="fit-text">
+                        <span class="font-weight-bold fit-text">Why No Ghislaine Maxwell Pictures Have Been Released Since Her Arrest</span>
+                    </div>
                 </div>
-                <div class="col-lg col-md-4 col-sm-6">
+                <div class="col-lg col-md-4 col-sm-6 margin-mobile">
                     <div class="row  f mb-3">
                         <div class="col-4">
-                            <img alt="74" class="img-fluid" src="https://d.newsweek.com/en/full/1597047/dwayne-johnson.jpg?w=397&h=265&f=2d5af3f6db48d5888e993618f80a92da">
+                            <img alt="74" class="img-fluid media-img" src="https://d.newsweek.com/en/full/1597047/dwayne-johnson.jpg?w=397&h=265&f=2d5af3f6db48d5888e993618f80a92da">
                         </div>
-                        <div class="col-7 ">
+                        <div class="col-7 text-media">
                             <span class="font-weight-bold ">XFL Owner Dwayne Johnson Once Tried to Rip Out a Football Teammate's Tongue</span>
                         </div>
                     </div>
                     <div class="row f mb-3">
                          <div class="col-4">
-                            <img alt="75" class="img-fluid" src="https://d.newsweek.com/en/full/1617776/metallica-james-hetfield-birthday.jpg?w=95&h=95&f=663d59a40e2b95caa2d98548d352f0b8">
+                            <img alt="75" class="img-fluid media-img" src="https://d.newsweek.com/en/full/1617776/metallica-james-hetfield-birthday.jpg?w=95&h=95&f=663d59a40e2b95caa2d98548d352f0b8">
                         </div>
-                        <div class="col-7 ">
+                        <div class="col-7 text-media">
                              <span class="font-weight-bold">13 Metallica Lyrics to Celebrate James Hetfield's on His Birthday</span>
                         </div>
                     </div>
                     <div class="row d-flex p-2">
                          <div class="col-4">
-                            <img alt="76" class="img-fluid" src="https://d.newsweek.com/en/full/488656/dwayne-johnson.jpg?w=95&h=95&f=3b43da4a2ce9d35c79772cff7bd0a46f">
+                            <img alt="76" class="img-fluid media-img" src="https://d.newsweek.com/en/full/488656/dwayne-johnson.jpg?w=95&h=95&f=3b43da4a2ce9d35c79772cff7bd0a46f">
                         </div>
-                        <div class="col-7">
+                        <div class="col-7 text-media">
                             <span class="font-weight-bold">Dwayne Johnson's XFL Purchase Feels like an Episode of 'Ballers'</span>
                         </div>
                     </div>
@@ -860,39 +876,43 @@
             </div>
             <hr>
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <span class="font-weight-bold text-orange"> SPORTS</span>
             <div class="row">
                 <div class="col-lg col-md-4 col-sm-6">
-                    <img alt="78" class="img-fluid" src="https://d.newsweek.com/en/full/1596587/dwayne-johnson.jpg?w=397&h=265&f=cfe541f6b2734f92a6bf95ac83d0065a">
-                    <span class="font-weight-bold">Dwayne 'The Rock' Johnson Buys XFL From His Former WWE Boss Vince McMahon</span>
+                    <img alt="78" class="img-fluid" src="https://d.newsweek.com/en/full/1596587/dwayne-johnson.jpg?w=397&h=265&f=cfe541f6b2734f92a6bf95ac83d0065a"><br>
+                    <div class="fit-text">
+                        <span class="font-weight-bold fit-text">Dwayne 'The Rock' Johnson Buys XFL From His Former WWE Boss Vince McMahon</span>
+                    </div>
                 </div>
                 <div class="col-lg col-md-4 col-sm-6 mb-sm-3">
-                    <img alt="79" class="img-fluid" src="https://d.newsweek.com/en/full/1617472/lebron-james-nba-los-angeles-lakers.jpg?w=397&h=265&f=9860594c4234f20a4ec043f161a3963e">
-                    <span class="font-weight-bold">Aubrey Huff Blasts LeBron James Outfit, Is Reminded of When He Wore a Thong</span>
+                    <img alt="79" class="img-fluid" src="https://d.newsweek.com/en/full/1617472/lebron-james-nba-los-angeles-lakers.jpg?w=397&h=265&f=9860594c4234f20a4ec043f161a3963e"><br>
+                    <div class="fit-text">
+                        <span class="font-weight-bold fit-text">Aubrey Huff Blasts LeBron James Outfit, Is Reminded of When He Wore a Thong</span>
+                    </div>
                 </div>
-                <div class="col-lg col-md-4 col-sm-6">
+                <div class="col-lg col-md-4 col-sm-6 margin-mobile">
                     <div class="row  f mb-3">
                          <div class="col-4">
-                            <img alt="80" class="img-fluid" src="https://d.newsweek.com/en/full/1617410/doug-pederson.jpg?w=397&h=265&f=431a2873ef63616518ea5c08f704035d">
+                            <img alt="80" class="img-fluid media-img" src="https://d.newsweek.com/en/full/1617410/doug-pederson.jpg?w=397&h=265&f=431a2873ef63616518ea5c08f704035d">
                         </div>
-                        <div class="col-7 ">
+                        <div class="col-7 text-media ">
                             <span class="font-weight-bold ">Philadelphia Eagles Coach Doug Pederson Tests Positive for Coronavirus</span>
                         </div>
                     </div>
                     <div class="row f mb-3">
                          <div class="col-4">
-                            <img alt="81" class="img-fluid" src="https://d.newsweek.com/en/full/1616439/lewis-hamilton-formula-one.jpg?w=95&h=95&f=ff2d4b61cfb9c97a43007e3211331617">
+                            <img alt="81" class="img-fluid media-img" src="https://d.newsweek.com/en/full/1616439/lewis-hamilton-formula-one.jpg?w=95&h=95&f=ff2d4b61cfb9c97a43007e3211331617">
                         </div>
-                        <div class="col-7 ">
+                        <div class="col-7 text-media">
                             <span class="font-weight-bold">Formula 1 TV Schedule 2020: British GP Start Time, TV Channel, Live Stream</span>
                         </div>
                     </div>
                     <div class="row d-flex p-2">
                          <div class="col-4">
-                            <img alt="82" class="img-fluid" src="https://d.newsweek.com/en/full/1617311/meyers-leonard.jpg?w=95&h=95&l=59&t=15&f=8fdc18e44e171c57cbfba07dcd6f7541">
+                            <img alt="82" class="img-fluid media-img" src="https://d.newsweek.com/en/full/1617311/meyers-leonard.jpg?w=95&h=95&l=59&t=15&f=8fdc18e44e171c57cbfba07dcd6f7541">
                         </div>
-                        <div class="col-7 ">
+                        <div class="col-7 text-media">
                             <span class="font-weight-bold">NBA Player Explains Why He Stood During National Anthem</span>
                         </div>
                     </div>
@@ -900,12 +920,12 @@
             </div>
             <hr>
         </div>
-        <div class="container mb-3">
+        <div class="container-fluid mb-3 c-footer">
             <div class="row d-md-flex d-sm-inline">
                 <div class="col-lg-8 col-md-12 h-md-50 h-sm-100 col-sm-6 height-sus">
                     <span class="font-weight-bold text-orange"> SUSCRIBE</span>
                     <div class="bg-litegray d-md-flex d-sm-block">
-                        <div class="d-flex mt-3 mb-3 mr-3 ml-3">
+                        <div class="d-flex mt-3 mb-3 mr-3 ml-3 align-news">
                             <div class="suscribe-1"></div>
                             <div class="suscribe-2"></div>
                         </div>
@@ -933,9 +953,9 @@
                 </div>
             </div>
         </div>
-        <div class="container border-top border-bottom mt-sm-2 ">
+        <div class="container-fluid border-top border-bottom mt-sm-2  ">
             <div class="d-md-flex justify-content-between d-sm-block">
-                <div class="d-flex ">
+                <div class="d-flex footer ">
                     <div class="d-block footer-icon "></div><br>
                     <span class="copy-m text-muted"> © 2020 Newsweek</span>
                 </div>
@@ -948,7 +968,7 @@
                 </div>
             </div>
         </div>
-        <div class="container mt-1 mb-3">
+        <div class="container-flu mt-1 mb-3">
             <div class="d-flex">
                 <span class="mr-3 font-weight-bold text-dark">Editions:</span>
                 <div class="d-m-flex d-sm-inline">
