@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box;
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 91px !important;
+    margin-left: 91px !important;
     border: 1px solid rgb(241, 231, 231);
     box-sizing: border-box;
     margin: 0 auto;
@@ -197,7 +197,7 @@ a {
 
 .fit-text {
     height: fit-content;
-    font-size: 13px;
+    font-size: 15px;
     width: 400px !important;
 }
 
@@ -219,6 +219,15 @@ a {
     margin-left: -15px;
     font-size: 14px;
     line-height: 0;
+}
+
+.more-img {
+    width: 95px;
+    height: 95px;
+}
+
+.more-text {
+    font-size: 15px !important;
 }
 
 @media screen and (max-width: 991px) {
@@ -266,6 +275,9 @@ a {
     .fit-text {
         width: 230px !important;
     }
+    .card-db-txt {
+        margin-left: -100px !important;
+    }
 }
 
 @media (max-width: 576px) {
@@ -310,5 +322,17 @@ a {
     }
     .fit-text {
         width: 300px !important;
+    }
+    .more-img {
+        padding: 0 0 0 0 !important;
+    }
+    .more-stories {
+        padding: 0 0 0 0 !important;
+    }
+    .padding-op {
+        padding: 0 0 0 0 !important;
+    }
+    .card-db-txt {
+        margin-left: -15px !important;
     }
 }
