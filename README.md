@@ -10,8 +10,9 @@
 
 ## Built With
 
-- html & css,
-- Visual Studio Code, Git and Github.
+- html & css
+- Bootstrap
+
 
 ## Live Demo
 [Live Demo Link](https://raw.githack.com/sanadwj/Newsweek-clone/feature-branch/index.html)
